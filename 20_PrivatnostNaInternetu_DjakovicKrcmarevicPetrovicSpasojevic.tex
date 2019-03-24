@@ -1,0 +1,132 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[a4paper]{article}
+
+\usepackage{color}
+\usepackage{url}
+\usepackage[T2A]{fontenc} % enable Cyrillic fonts
+\usepackage[utf8]{inputenc} % make weird characters work
+\usepackage{graphicx}
+
+\usepackage[english,serbian]{babel}
+%\usepackage[english,serbianc]{babel} %ukljuciti babel sa ovim opcijama, umesto gornjim, ukoliko se koristi cirilica
+
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks,citecolor=green,filecolor=green,linkcolor=blue,urlcolor=blue}
+
+\usepackage{listings}
+
+\newcommand\todos[1]{\textcolor{red}{#1}}
+
+%\newtheorem{primer}{Пример}[section] %ćirilični primer
+\newtheorem{primer}{Primer}[section]
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ 
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  firstnumber=1000,                % start line enumeration with line 1000
+  frame=single,	                   % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=Python,                 % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\begin{document}
+
+\title{Privatnost na Internetu\\ \small{Seminarski rad u okviru kursa\\Metodologija stručnog i naučnog rada\\ Matematički fakultet}}
+
+\author{Đaković Branko, Krčmarević Mladen,\\Petrović Ana, Spasojević Đorđe\\ brankodjakovic08@gmail.com, mladenk@twodesperados.com,\\ pana.petrovic@gmail.com, djordje.spasojevic1996@gmail.com}
+
+%\date{9.~april 2015.}
+
+\maketitle
+
+\abstract{ 
+\todos{TODO napisati apstrakt (na kraju)}\\
+Ovde pišemo opis ukratko svega što smo radili. Na ovoj strani mora da bude naslov, ovaj apstrakt i sadržaj - SVE MORA DA STANE}
+
+\tableofcontents
+
+\newpage
+
+\section{Uvod}
+\label{sec:uvod}
+U martu 2018. godine bivši zaposleni firme Kembridž Analitika (eng.~{\em Cambridge Analytica}) je otkrio javnosti da je ova firma kupila od društvene mreže Fejsbuk privatne podatke barem 50 miliona korisnika bez njihove saglasnosti \cite{guardian}. Podaci su prikupljeni uz pomoć aplikacije na Fejsbuku koja je bila namenjena prikupljanju podataka u akadamske svrhe. Međutim, ova aplikacija je, osim za one korisnike koji su na to pristali, uzimala podatke i svih njihovih prijatelja. Na osnovu ove velike količine podataka pravljeni su profili koji su služili za ciljano oglašavanje tokom predsedničke kampanje Donalda Trampa, kao i tokom perioda referenduma o članstvu Ujedinjenog Kraljevstva u Evropskoj uniji. Politika platforme Fejsbuk izričito zabranjuje prodaju ili korišćenje podataka korisnika u svrhe oglašavanja, što je učinilo ovaj slučaj jednim od najvećih slučaja kršenja privatnosti podataka na Internetu. Iako je Trampov kabinet porekao korišćenje ovih podataka u cilju pribavljanja glasača, ova vest je otvorila diskusije o tome ko i u kolikoj meri ima pristup našim podacima na Internetu.
+\par Uzimajući u obzir da društvene mreže kao što je Instagram imaju milijardu korisnika na mesečnom nivou \cite{instagram} , količina privatnih podataka koje oni ostavljaju na ovoj platformi, a koji se kreću od uzrasta i lokacije, do interesovanja i hobija, je ogromna. Uz to, ove kompanije najčešće ne traže dozvolu da čuvaju podatke korisnika, ili kada je traže, to rade na netransparentan način. Povrh svega toga, pojedinci najčešće nisu ni svesni da sve što ostave na Internetu, kasnije može biti iskorišćeno na načine koji bi u nekim slučajevima mogli da idu i na njihovu štetu.
+\todos{TODO: U prvoj sekciji bla bla, drugoj, trecoj .... bla bla bla (kad oderedimo struktru)}
+
+
+\section{Šta je privatnost?}
+\label{sec:prvoPoglavlje}
+Pravo na privatnost se često smatra za jedno od najjasnijih i najvrednovanijih ljudskih prava, ali je privatnost koncept koji je teško definisati \cite{solove}. Jedan od problema u definisanju privatnosti leži u širini i neodređenosti ovog pojma, koji obuhvata zaštitu od ispitivanja i nedozvoljenih pretraga, kontrolu nad sopstvenim telom i privatnim informacijama, pa čak i pravo na slobodu mišljenja i govora. Ključni pojam u raspravama o tome šta je privatnost je koncept pristupa, bilo u kontekstu fizičke bliskosti nekoj osobi, bilo u kontekstu posedovanja znanja o toj osobi \cite{ethics}. Pristup podrazumeva da jedna osoba ima pravo da ograniči ili zabrani pristup sebi u najširem smislu te reči, dok sa druge strane, on takođe podrazumeva i pravo drugih da ostvare pristup određenoj osobi. Upravo je sukob između ova dva ono u čemu leži suština privatnosti. Taj sukob se najviše reflektuje u suprotstavljanju  privatnog i javnog, i onoga što bi trebalo da bude privatno i javno. Sa jedne strane, svaki pojedinac ima pravo da ograniči informacije o sebi koje su deo javnog znanja, međutim, preveliko ograničenje pristupa može dovesti do zloupotrebe i do loših posledica po društvo. Upravo zato privatnost predstavlja ključan problem slobode i demokratije \cite{solove}. Zbog toga ni ne čudi što se ogroman broj zakona i ustavnih prava odnosi upravo na privatnost. Pri tome, često se sprovođenje ovih zakona i odredbi dovodi u pitanje usled nedefinisanosti pojma. jedan od mogućih načina da definišemo privatnost je da je konceptualizujemo kao društveni ugovor koji dozvoljava pojedincu da ima određen nivo kontrole nad time ko i u kojoj meri ima pristup ne samo njegovim podacima, već i njegovom telu \cite{ethics}.
+
+\subsection{Privatnost na Internetu}
+\label{subsec:privatnostNaInternetu}
+
+Sa razvojem Interneta, problem shvatanja privatnosti se dodatno komplikuje i činjenica da veliku većinu dana provodimo na Internetu donosi nove aspekte problemu privatnosti. Svakog dana, korišćenjem interneta za različite potrebe, svaka osoba ostavlja za sobom elektronski trag svojih aktivnosti, koje mogu biti takve da otkrivaju i identitet pojedinca. Uz to, ostavljanje privatnih podataka može imati i određene prednosti, kao što su personalizovane poruke ili na primer, popusti, te je pojedinac suočen sa odlukom da li da propusti ove prednosti, ali očuva privatnost ili da ostavi svoje podatke na internetu, koji kasnije mogu biti zloupotrebljeni \cite{renata}.
+\par Povrh ovih informacija koje sami voljno ili nevoljno ostavljamo, danas su i informacije koje su deo javnih informacija (kao što su podaci o rođenju ili bračnom statusu pojedinca) kompjuterizovane, što ih čini daleko dostupnijim. Sa jedne strane, ovo ima svoju jasnu prednost, ali ovo podrazumeva da su i ove informacije daleko pristupačnije i onima kojima možda ne bismo želeli da budu \cite{ethics}. Kapacitet prikupljanja podataka svakim danom sve više raste, što dovodi do mnogo lakšeg prepoznavanja pojedinca i korišćenja podataka o njemu u različite svrhe. Iako često mi sami odlučujemo da podelimo neke privatne informacije na internetu, često pojedinac nije ni svestan kada daje dozvolu nekoj privatnoj kompaniji da koristi njegove informacije i najčešće su pojedinci zbunjeni oko toga šta su tačno njihova prava na privatnost na internetu \cite{renata}.
+
+\subsection{Percepcija privatnosti}
+\label{subsec:percepcija}
+
+Bitan aspekt razmatranja privatnosti na internetu je koncept percipirane privatnosti. Odnosno, problem privatnosti ne ostaje samo na tome da li ona postoji ili ne, već se širi i na to kako pojedinac vidi svoju privatnost kao problem i ako da, u kojoj meri. Percepcija privatnosti dalje određuje ponašanje pojedinca na internetu, utoliko što će pojedinci biti spremniji da koriste određene veb stranice ukoliko smatraju da je njihova privatnost zaštićena i obrnuto. Povrh toga, pokazuje se da, kada postoji uverenost da je privatnost pojedinca zaštićena, oni su spremni da je se vrlo lako odreknu, radi ispunjenja nekih potreba (kao što je na primer kupovina).
+\par Percepciju privatnosti na internetu oblikuju različiti faktori, od kojih se neki vezuju za samog pojedinca, neki za same stranice koje korisnici posećuju, a neki za datu situaciju. Tako, shvatanje privatnosti može zavisiti od pola ili uzrasta, ali i obrazovanja pojedinca, prethodnog iskustva na internetu kao i od toga da li je osoba prethodno iskusila narušavanje privatnosti na internetu. Isto tako, to da li će pojedinac biti zabrinut za svoju privatnost na određenom sajtu može zavisiti od poznatosti brenda tog sajta, opaženog integriteta ili opaženog rizika tog sajta. Na kraju, to kako percipiramo trenutnu pretnju po privatnost može da zavisi i od toga kakvo je poklapanje između traženih informacija i usluge koju dobijamo i da li nam je ona smislena, ili od trenutne percepcije toga koliko je određeni podatak koji ostavljamo na internetu osetljive prirode \cite{renata}. Dakle, percepcija privatnosti na internetu je širok problem, koji je pod uticajem mnogih faktora, a koji povratno utiče na ponašanje svakog pojedinca na internetu, koje ponovo dovodi do narušavanja ili očuvanja privatnosti na internetu, te je stoga ovaj problem veoma relevantan za razumevanje privatnosti na internetu danas.
+  
+
+\section{Drugo poglavlje}	
+\label{sec:drugoPoglavlje}
+
+\section{Zaključak}
+\label{sec:zakljucak}
+
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+Ovde pišem zaključak. 
+
+
+\addcontentsline{toc}{section}{Literatura}
+\appendix
+\bibliography{seminarski} 
+\bibliographystyle{plain}
+
+\appendix
+\section{Dodatak}
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
+
+
+\end{document}
