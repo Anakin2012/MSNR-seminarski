@@ -5,11 +5,19 @@ C.~Cadwalladr and E.~Graham-Harrison.
 \newblock {Revealed: 50 million Facebook profiles harvested for Cambridge
   Analytica in major data breach}.
 \newblock {\em The Guardian}, 2018.
+\newblock on-line at: \url{https://www.theguardian.com}.
 
 \bibitem{instagram}
 T.~Clarke.
 \newblock {22+ Instagram Stats That Marketers Can't Ignore This Year}.
 \newblock {\em Hootsuite}, 2019.
+\newblock on-line at: \url{https://blog.hootsuite.com}.
+
+\bibitem{kompanije}
+G.~Greenwald and E.~MacAskill.
+\newblock {NSA Prism Program Taps In to User Data of Apple, Google and Others}.
+\newblock {\em The Guardian}, 2013.
+\newblock on-line at: \url{https://www.theguardian.com}.
 
 \bibitem{renata}
 R.~Mekovec.
@@ -21,13 +29,30 @@ R.~Mekovec.
 \bibitem{ethics}
 M.~J. Quinn.
 \newblock {\em {Ethics for the Information Age}}, chapter Information Privacy,
-  pages 227--256.
+  Privacy And The Government, pages 227--314.
 \newblock Addison-Wesley Professional, Boston, 2014.
+
+\bibitem{london}
+J.~Roth.
+\newblock {Bloomberg in London to Study Security System}, 2010.
+\newblock on-line at: \url{https://abc.go.com/wabc}.
+
+\bibitem{ddp}
+R.~Singel.
+\newblock {Google, Microsoft Push Feds to Fix Privacy Laws}.
+\newblock {\em Wired}, 2010.
+\newblock on-line at: \url{https://www.wired.com}.
 
 \bibitem{solove}
 D.~J. Solove.
 \newblock {\em {Understanding Privacy}}, chapter Privacy: A Concept in
   Disarrey, pages 1--12.
 \newblock Harvard University Press, Cambridge, Massachusetts, 2008.
+
+\bibitem{ruzvelt}
+D.~Whitfield and S.~Landau.
+\newblock {\em {Privacy on the Line: The Politcs of Wiretapping and
+  Encryption}}.
+\newblock MIT Press, Cambridge, Massachusetts, 1998.
 
 \end{thebibliography}
