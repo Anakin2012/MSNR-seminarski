@@ -8,6 +8,7 @@
 \contentsline {subsubsection}{\numberline {3.1.1}Zakon o nadzoru stranih slu\IeC {\v z}bi}{4}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Zakon o skladi\IeC {\v s}tenoj komunikaciji}{4}{subsubsection.3.1.2}
 \contentsline {subsection}{\numberline {3.2}PRISM}{5}{subsection.3.2}
-\contentsline {section}{\numberline {4}Zaklju\IeC {\v c}ak}{5}{section.4}
-\contentsline {section}{Literatura}{5}{section.4}
+\contentsline {section}{\numberline {4}Enkripcija (\leavevmode {\color {red}promeniti naslov})}{5}{section.4}
+\contentsline {section}{\numberline {5}Zaklju\IeC {\v c}ak}{6}{section.5}
+\contentsline {section}{Literatura}{6}{section.5}
 \contentsline {section}{\numberline {A}Dodatak}{6}{appendix.A}
