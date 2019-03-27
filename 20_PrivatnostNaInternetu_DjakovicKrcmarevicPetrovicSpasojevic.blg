@@ -1,3 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: 20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.aux
 The style file: plain.bst
 Database file #1: seminarski.bib
+I was expecting a `,' or a `}'---line 124 of file seminarski.bib
+ : 
+ : @article {vpn5,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in vpn1
+Warning--empty journal in vpn5
+(There was 1 error message)

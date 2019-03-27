@@ -1,4 +1,8 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{vpn1}
+{The History of VPN}, 2018.
+\newblock on-line at: \url{https://www.le-vpn.com/history-of-vpn/}.
 
 \bibitem{guardian}
 C.~Cadwalladr and E.~Graham-Harrison.
@@ -19,12 +23,29 @@ G.~Greenwald and E.~MacAskill.
 \newblock {\em The Guardian}, 2013.
 \newblock on-line at: \url{https://www.theguardian.com}.
 
+\bibitem{vpn4}
+K.~Grewal, R.~Kajal, and D.~Saini.
+\newblock {Virtual Private Network}.
+\newblock {\em International Journal of Advanced Research in Computer Science
+  and Software Engineering}, 2012.
+\newblock on-line at: \url{www.ijarcsse.com}.
+
+\bibitem{vpn3}
+V.~Marijanović.
+\newblock {Virtuelne privatne mreže}, 2011.
+
 \bibitem{renata}
 R.~Mekovec.
 \newblock {Online privacy: overview and preliminary research}.
 \newblock {\em Journal of Information and Organizational Sciences}, pages
   195--209, 2010.
 \newblock on-line at: \url{https://bib.irb.hr/datoteka/495673.JIOS2010.pdf}.
+
+\bibitem{vpn5}
+V.~Perta.
+\newblock {A Glance through the VPN Looking Glass: IPv6 Leakage and DNS
+  Hijacking in Commercial VPN clients}.
+\newblock 2015.
 
 \bibitem{ethics}
 M.~J. Quinn.
@@ -48,6 +69,11 @@ D.~J. Solove.
 \newblock {\em {Understanding Privacy}}, chapter Privacy: A Concept in
   Disarrey, pages 1--12.
 \newblock Harvard University Press, Cambridge, Massachusetts, 2008.
+
+\bibitem{vpn2}
+W.~T. Strayer.
+\newblock {Privacy Issues in Virtual Private Networks}.
+\newblock {\em Computer Communications}, 2004.
 
 \bibitem{ruzvelt}
 D.~Whitfield and S.~Landau.
