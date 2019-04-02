@@ -104,18 +104,25 @@ Kada se govori o privatnosti na internetu, treba pomenuti i odnos države i drž
 Usled pretnje po bezbednost SAD-a, donošeni su zakoni koji su službama dali veća ovlašćenja i dozvoljen im je upad u privatnost pojedinaca. U narednim odeljcima, biće navedeni neki zakoni kojima administracija dozvoljava narušavanje privatnosti na internetu.
 
 \subsubsection{Zakon o nadzoru stranih službi}
-Američka administracija je 1978. godine donela zakon o nadzoru stranih službi (eng.~{\em Foreign Intelligence Surveillance Act - FISA}),  kojim se dozvoljava tajni nadzor inostranih vlada i njihovih službi. Ovim zakonom američki predsednik je mogao da odobri elektronski nadzor stranih državljana na jednu godinu, pod uslovom da se time ne krši privatnost državljana Amerike. U suprotnom, administracija bi morala da dobije sudski nalog za prisluškivanje. Nakon što je 2013. godine Edvard Snouden, bivši zaposleni u NSA i FBI, obelodanio na hiljade tajnih dokumenata američkih tajnih službi, među kojima se našao i projekat PRISM, koji je dozvoljavao NSA pristup svim serverima i informacijama, pa čak i nadzor video poziva bez sudskog naloga. U ovaj tajni program su bile uključene sve velike kompanije, pa je tako NSA imao pristup serverima Majkrosofta, Jahua, Gugla, Fejsbuka, Jutjuba i Epla \cite{kompanije}. U odeljku \ref{subsec:prism} detaljno će biti obrađen projekat PRISM.
+Američka administracija je 1978. godine donela zakon o nadzoru stranih službi (eng.~{\em Foreign Intelligence Surveillance Act - FISA}),  kojim se dozvoljava tajni nadzor inostranih vlada i njihovih službi. Ovim zakonom američki predsednik je mogao da odobri elektronski nadzor stranih državljana na jednu godinu, pod uslovom da se time ne krši privatnost državljana Amerike. U suprotnom, administracija bi morala da dobije sudski nalog za prisluškivanje. Nakon što je 2013. godine Edvard Snouden, bivši zaposleni u NSA i FBI, obelodanio na hiljade tajnih dokumenata američkih tajnih službi, među kojima se našao i projekat PRISM, koji je dozvoljavao NSA pristup svim serverima i informacijama, pa čak i nadzor video poziva bez sudskog naloga \cite{prism}. U odeljku \ref{subsec:prism} detaljno će biti obrađen projekat PRISM.
 
 \subsubsection{Zakon o skladištenoj komunikaciji}
 Zakon o skladištenoj komunikaciji (eng. ~{\em Stored Communication Act}) predstavlja deo zakona o privatnosti pri elektronskoj komunikaciji (eng. ~{\em Electronic Communication Privacy Act}) iz 1986. godine i odnosi se na privatnost kolekcija elektronske pošte. Po ovom zakonu administraciji nije potreban sudski nalog kako bi od dobavljača internet usluga (eng. ~{\em Internet provider})  dobila mejlove starije od 180 dana. Problem sa ovim zakonom nastaje usled činjenice da sve više korisnika koriste klaudove internet provajdera, tako da sada nije jedina funkcija provajdera samo prenos elektronske pošte, već sve više ljudi koriste servere internet provajdera da čuvaju stvari koje bi inače čuvali na privatnim računarima. Usled proširenja skladištenog prostora i funkcija provajderskih servera, skoro pedeset kompanija i organizacija koje smatraju da administracija ne bi smela da dobavlja privatne informacije korisnika sa klauda bez sudskog naloga, udružilo se u organizaciju pod nazivom Digital Due Process, kako bi zahtevali od administracije da unapredi ovaj zakon \cite{ddp}.
 
 
-
 \subsection{PRISM}
 \label{subsec:prism}
+Kada je Edvard Snouden u junu 2013. godine obelodanio na hiljade tajnih dokumenata NSA i FBI, među njima su se našli i dokumenti vezani za program PRISM, tajni program korišćen za nadzor aktivnosti na internetu. Program je započet 2007. godine i u narednih nekoliko godina sve velike kompanije su dale saglasnost za nadzor njihovih servera: Majkrosoft 2007., Jahu 2008.,  Gugl, Fejsbuk i PalTalk 2009.,  Jutjub 2010., Skajp i AOL 2011. i Epl 2012. godine. Sve navedene kompanije tvrdile su da nikada nisu čuli za PRISM i negirale bilo kakvo učešće u ovom programu \cite{prism}. 
+\par Prema FISA zakonu, NSA je imala pravo da uz sudski nalog traži podatke o pojedincu od internet kompanije. Međutim, kako su u NSA smatrali da ceo taj proces predugo traje i da su potrebni nalozi za oba učesnika internet konverzacije, program PRISM je bio idealno rešenje tog problema. Agencija je imala direktan pristup serverima i  mnogo veću slobodu u nadzoru i prikupljanju podataka, pa čak i praćenju poziva uživo preko interneta. NSA ovo i navodi u svojim dokumentima, gde ovaj program nazivaju "jednim od najvrednijih, jedinstvenih i najproduktivnijih pristupa koji NSA ima" \cite{prism}. U jednom od dokumenata koje je Snouden otkrio, može se videti tabela sa podacima koje je NSA mogla da prikuplja i prati pomoću PRISM programa. Mejlovi, razgovori, video pozivi, slike, čuvani podaci, video konferencije, istorije pretraživanja korisnika, samo su neki od podataka u koje je NSA imala uvid.
 
+\section{Narušavanje privatnosti na internetu (\todos{promeniti naslov})}
+\label{sec:trecePoglavlje}
+\todos{TODO: uvod, uvod, uvod...}
+\\
+\subsection{Društvene mreže}
+\subsection{Krađa identiteta}
+\subsection{Onlajn kupovina}
 
-\todos{ djoletov drugi deo}
 
 \section{Zaštita privatnosti}
 \label{sec:zastita}
@@ -126,10 +133,9 @@ Zakon o skladištenoj komunikaciji (eng. ~{\em Stored Communication Act}) predst
 \subsection{Enkripcija} 
 \todos{TODO literatura} \\
 Internet je otvoren sistem. Svi podaci se kroz vise uređaja, deljenih konekcija, ili čak bežicno šalju kako bi stigli do željene destinacije. Ovaj sistem omogućava komunikaciju između uređaja koji mogu biti udaljeni više hiljada kilometara, ali zbog ključnog mehanizma koji to dozvoljava pravi i jedan od najvećih problema. Svaki uređaj koji se nalazi između početnog i krajnjeg  odredišta može videti šta je poslato. Svaka elektronska pošta, ukucana lozinka i broj kreditne kartice mogu biti pročitani od strane nekoga u sredini. Da bi se ovo sprečilo koristi se enkripcija.
-\par Enkripcija je mehanizam kojim se bilo kakva informacija šifruje, tj. prebacuje iz čitljivog oblika u naizgled nasumične karaktere, koji se uz pomoć odgovarajućeg ključa mogu vratiti u svoj prvobitan oblik. U upotrebi je od pre više hiljada godina, kada je Cezar slao šifrovane poruke vojsci koje neprijatelj ne bi mogao da razume. Cezarova šifra (eng.~{\em Caesar's cipher}) je prilično jednostavna i zasniva se na zameni svakog karaktera za karakter koji je pomeren u abecedi za nekoliko mesta. Jedina potrebna informacija za šifrovanje je ključ koji označava broj pozicija za koji je karakter pomeren, a za dešifrovanje primalac samo treba da iskoristi negativnu vrednost ključa. Ovu enkripciju bi bilo koji čovek mogao da dešifruje vrlo brzo, tako da nije primenljiva u domenu računara, ali daje osnovu za razumevanje kompleksnijih algoritama koji se koriste pri upotrebi veb pregledača, elektronske pošte ili onlajn kupovine.
-\par Na internetu se uglavnom koristi asimetrična enkripcija. Ona podrazumeva da svako ko učestvuje u komunikaciji ima svoj javni i privatni ključ, za razliku od simetrične, kod koje je potreban samo jedan ključ te se ona koristi u situacijama kada već postoji siguran kanal za komunikaciju. Par ključeva kod asimetrične enkripcije se generiše po matematičkim principima, tako da ako se nešto šifruje uz pomoć javnog ključa, može se dešifrovati privatnim i obrnuto. Javni ključ pojedinca je poznat svima, a privatni ključ zna i koristi samo osoba koja ga poseduje. Pri slanju poruke, pošiljalac je najpre šifruje sa javnim ključem primaoca, a zatim svojim privatnim ključem. Kada primalac dobije poruku, on je dešifruje uz pomoć javnog ključa pošiljaoca i nakon toga sopstvenim privatnim ključem. Ovim je obezbeđena komunikacija tako da niko sa strane ne može da pročita niti promeni prosleđenu poruku, a da se to ne detektuje.
-
-\todos{ NASTAVAK }
+\par Enkripcija je mehanizam kojim se bilo kakva informacija šifruje, tj. prebacuje iz čitljivog oblika u naizgled nasumične karaktere, koji se uz pomoć odgovarajućeg ključa mogu vratiti u svoj prvobitan oblik. U upotrebi je od pre više hiljada godina, kada je Cezar slao šifrovane poruke vojsci koje neprijatelj ne bi mogao da razume. Cezarova šifra (eng.~{\em Caesar's cipher}) je prilično jednostavna i zasniva se na zameni svakog karaktera za karakter koji je pomeren u abecedi za nekoliko mesta. Jedina potrebna informacija za šifrovanje je ključ koji označava broj pozicija za koji je karakter pomeren, a za dešifrovanje primalac samo treba da iskoristi negativnu vrednost ključa. Ovu enkripciju bi bilo koji čovek mogao da dešifruje vrlo brzo, tako da nije primenljiva u domenu računara, ali daje osnovu za razumevanje kompleksnijih algoritama koji se koriste pri upotrebi veb pregledača, elektronske pošte ili prilikom onlajn kupovine.
+\par Cezarova šifra primer je simetrične enkripcije. Simetrična enkripcija se koristi u situacijama kada već postoji siguran kanal za komunikaciju, te je potreban samo jedan ključ. Još jedan primer ove vrste enkripcije je AES (eng.~{\em Advanced Encryption Standard}), koji se koristi kod virtuelnih privatnih mreža ili za enkripciju hard diska \cite{aes}. \todos{TODO: OVDE JOS O AES}
+\par Na internetu se uglavnom koristi asimetrična enkripcija. Ona podrazumeva da svako ko učestvuje u komunikaciji ima svoj javni i privatni ključ, za razliku od simetrične. Par ključeva kod asimetrične enkripcije se generiše po matematičkim principima, tako da ako se nešto šifruje uz pomoć javnog ključa, može se dešifrovati privatnim i obrnuto. Javni ključ pojedinca je poznat svima, a privatni ključ zna i koristi samo osoba koja ga poseduje. Pri slanju poruke, pošiljalac je najpre šifruje sa javnim ključem primaoca, a zatim svojim privatnim ključem. Kada primalac dobije poruku, on je dešifruje uz pomoć javnog ključa pošiljaoca i nakon toga sopstvenim privatnim ključem. Ovim je obezbeđena komunikacija tako da niko sa strane ne može da pročita niti promeni prosleđenu poruku, a da se to ne detektuje. Najpopularniji primer asimetrične enkripcije je RSA (eng.~{\em Rivest–Shamir–Adleman}) \cite{rsa}. \todos{TODO: JOS O RSA} 
 
 \subsection{Virtuelne privatne mreže (VPN)}
 Virtuelne privatne mreže (eng.~{\em virtual private network}) nastale su usled potrebe da se biznisi, organizacije, vlade i slični subjekti koji poseduju osetljive informacije zaštite od hakovanja i gubitka podataka u slučajevima kada je potrebno da im udaljeni korisnici ili satelitske kancelarije pristupe, kao i radi smanjenja telekomunikacionih troškova efikasnijim korišćenjem infrastrukture \cite{vpn1}. VPN su privatne mreže koje rade preko deljene javne infrastrukture kao što je internet \cite{vpn2}. Virtuelna je zato što ne postoji odvojena fizička infrastruktura za datu mrežu, već koristi već postojeću javnu infrastrukturu. Privatna je zato što  omogućava bezbednu upotrebu uz garanciju da će samo članovi mreže moći da vide poslate informacije \cite{vpn3}. VPN omogućavaju privatnost podataka korišćenjem sigurnosnih procedura(enkripcija)  i  protokola tuneliranja(IPsec, PPTP, L2TP). VPN napravi "tunel"  između korsinika pri čemu se podaci enkriptuju na strani pošiljaoca, šalju kroz tunel i zatim dekriptuju na strani primaoca. Pored podataka mogu se kriptovati i polazna i završna adresa radi veće sigurnosti \cite{vpn4}. 
@@ -170,17 +176,9 @@ Ovde pišem zaključak.
 
 
 \addcontentsline{toc}{section}{Literatura}
-\appendix
 \bibliography{seminarski} 
 \bibliographystyle{plain}
 
-\appendix
-\section{Dodatak}
-Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
-Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
-Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
-Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
-Ovde pišem dodatne stvari, ukoliko za time ima potrebe.
 
 
 \end{document}

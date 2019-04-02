@@ -17,7 +17,7 @@ T.~Clarke.
 \newblock {\em Hootsuite}, 2019.
 \newblock on-line at: \url{https://blog.hootsuite.com}.
 
-\bibitem{kompanije}
+\bibitem{prism}
 G.~Greenwald and E.~MacAskill.
 \newblock {NSA Prism Program Taps In to User Data of Apple, Google and Others}.
 \newblock {\em The Guardian}, 2013.
@@ -30,9 +30,23 @@ K.~Grewal, R.~Kajal, and D.~Saini.
   and Software Engineering}, 2012.
 \newblock on-line at: \url{www.ijarcsse.com}.
 
+\bibitem{rsa}
+J.~Lake.
+\newblock {What is RSA encryption and how does it work?}
+\newblock {\em comparitech}, 2018.
+\newblock on-line at:
+  \url{https://www.comparitech.com/blog/information-security/rsa-encryption/}.
+
 \bibitem{vpn3}
 V.~Marijanović.
 \newblock {Virtuelne privatne mreže}, 2011.
+
+\bibitem{aes}
+J.~Mason.
+\newblock {Advanced Encryption Standard (AES)}.
+\newblock 2017.
+\newblock on-line at:
+  \url{https://thebestvpn.com/advanced-encryption-standard-aes/}.
 
 \bibitem{renata}
 R.~Mekovec.
