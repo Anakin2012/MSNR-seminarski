@@ -1,12 +1,21 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: 20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.aux
 The style file: plain.bst
 Database file #1: seminarski.bib
-I was expecting a `,' or a `}'---line 140 of file seminarski.bib
+Warning--entry type for "vpn3" isn't style-file defined
+--line 123 of file seminarski.bib
+I was expecting a `,' or a `}'---line 141 of file seminarski.bib
  : 
  : @article {vpn5,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--to sort, need author or key in vpn1
+I was expecting a `,' or a `}'---line 155 of file seminarski.bib
+ :  
+ :  url = {http://pewinternet.org/Reports/2012/ Privacy‐management‐on‐social‐media.aspx}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in it2
+Warning--empty booktitle in it1
+Warning--empty journal in sm3
 Warning--empty journal in aes
 Warning--empty journal in vpn5
-(There was 1 error message)
+(There were 2 error messages)

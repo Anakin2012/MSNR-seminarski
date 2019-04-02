@@ -10,11 +10,11 @@
 \contentsline {subsection}{\numberline {3.2}PRISM}{5}{subsection.3.2}
 \contentsline {section}{\numberline {4}Naru\IeC {\v s}avanje privatnosti na internetu (\leavevmode {\color {red}promeniti naslov})}{5}{section.4}
 \contentsline {subsection}{\numberline {4.1}Dru\IeC {\v s}tvene mre\IeC {\v z}e}{5}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Kra\IeC {\dj }a identiteta}{5}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Onlajn kupovina}{5}{subsection.4.3}
-\contentsline {section}{\numberline {5}Za\IeC {\v s}tita privatnosti}{5}{section.5}
-\contentsline {subsection}{\numberline {5.1}Enkripcija}{5}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Virtuelne privatne mre\IeC {\v z}e (VPN)}{6}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Rizici za korisnike VPN}{7}{subsubsection.5.2.1}
-\contentsline {section}{\numberline {6}Zaklju\IeC {\v c}ak}{8}{section.6}
-\contentsline {section}{Literatura}{8}{section.6}
+\contentsline {subsection}{\numberline {4.2}Kra\IeC {\dj }a identiteta}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Onlajn kupovina}{7}{subsection.4.3}
+\contentsline {section}{\numberline {5}Za\IeC {\v s}tita privatnosti}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}Enkripcija}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Virtuelne privatne mre\IeC {\v z}e (VPN)}{8}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Rizici za korisnike VPN}{8}{subsubsection.5.2.1}
+\contentsline {section}{\numberline {6}Zaklju\IeC {\v c}ak}{9}{section.6}
+\contentsline {section}{Literatura}{9}{section.6}

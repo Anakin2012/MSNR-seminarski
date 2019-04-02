@@ -1,8 +1,21 @@
 \begin{thebibliography}{10}
 
-\bibitem{vpn1}
-{The History of VPN}, 2018.
-\newblock on-line at: \url{https://www.le-vpn.com/history-of-vpn/}.
+\bibitem{it3}
+Hazel Baker.
+\newblock Making a 'deepfake': How creating our own synthetic video helped us
+  learn to spot one.
+\newblock {\em Reuters}, 2019.
+
+\bibitem{it2}
+Leyla Bilge, Thorsten Strufe, Davide Balzarotti, and Engin Kirda.
+\newblock All your contacts are belong to us: Automated identity theft attacks
+  on social networks.
+\newblock pages 551--560, 01 2009.
+
+\bibitem{it4}
+Russell Brandom.
+\newblock Deepfake propaganda is not a real problem.
+\newblock {\em The Verge}, 2019.
 
 \bibitem{guardian}
 C.~Cadwalladr and E.~Graham-Harrison.
@@ -11,11 +24,21 @@ C.~Cadwalladr and E.~Graham-Harrison.
 \newblock {\em The Guardian}, 2018.
 \newblock on-line at: \url{https://www.theguardian.com}.
 
+\bibitem{it1}
+Neil Chou, Robert Ledesma, Yuka Teraguchi, and John C.~Mitchell.
+\newblock Client-side defense against web-based identity theft.
+\newblock 01 2004.
+
 \bibitem{instagram}
 T.~Clarke.
 \newblock {22+ Instagram Stats That Marketers Can't Ignore This Year}.
 \newblock {\em Hootsuite}, 2019.
 \newblock on-line at: \url{https://blog.hootsuite.com}.
+
+\bibitem{sm3}
+D.~Garcia.
+\newblock {Leaking privacy and shadow profiles in online social networks}.
+\newblock 2017.
 
 \bibitem{prism}
 G.~Greenwald and E.~MacAskill.
@@ -36,6 +59,22 @@ J.~Lake.
 \newblock {\em comparitech}, 2018.
 \newblock on-line at:
   \url{https://www.comparitech.com/blog/information-security/rsa-encryption/}.
+
+\bibitem{dataencryption}
+N.~Lord.
+\newblock {What Is Data Encryption? Definition, Best Practices \& More}.
+\newblock {\em Digital Guardian}, 2019.
+
+\bibitem{sm1}
+M.~Madden.
+\newblock {Privacy management on social media sites}.
+\newblock {\em Pew Research Center}, 2012.
+
+\bibitem{sm2}
+M.~Madden, A.~Lenhart, S.~Cortesi, U.~Gasser, M.~Duggan, A.~Smith, and
+  M.~Beaton.
+\newblock {Teens, Social Media, and Privacy}.
+\newblock {\em Pew Research Center}, 2013.
 
 \bibitem{vpn3}
 V.~Marijanović.
