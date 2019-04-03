@@ -1,19 +1,31 @@
 \begin{thebibliography}{10}
 
+\bibitem{cookies1}
+D.~Anon.
+\newblock {How cookies track you around the web and how to stop them}.
+\newblock 2018.
+\newblock on-line at: \url{https://privacy.net/stop-cookies-tracking/ }.
+
 \bibitem{it3}
-Hazel Baker.
+H.~Baker.
 \newblock Making a 'deepfake': How creating our own synthetic video helped us
   learn to spot one.
 \newblock {\em Reuters}, 2019.
 
+\bibitem{prism2}
+R.~Bell.
+\newblock {Shedding Light on the Foreign Intelligence Surveillance Court
+  (FISC): Court Findings from Our 2007-2008 Case}.
+\newblock {\em Yahoo Global Public Policy}, 2014.
+
 \bibitem{it2}
-Leyla Bilge, Thorsten Strufe, Davide Balzarotti, and Engin Kirda.
+L.~Bilge, T.~Strufe, D.~Balzarotti, and E.~Kirda.
 \newblock All your contacts are belong to us: Automated identity theft attacks
   on social networks.
 \newblock pages 551--560, 01 2009.
 
 \bibitem{it4}
-Russell Brandom.
+R.~Brandom.
 \newblock Deepfake propaganda is not a real problem.
 \newblock {\em The Verge}, 2019.
 
@@ -25,7 +37,7 @@ C.~Cadwalladr and E.~Graham-Harrison.
 \newblock on-line at: \url{https://www.theguardian.com}.
 
 \bibitem{it1}
-Neil Chou, Robert Ledesma, Yuka Teraguchi, and John C.~Mitchell.
+N.~Chou, R.~Ledesma, Y.~Teraguchi, and J.~C.~Mitchell.
 \newblock Client-side defense against web-based identity theft.
 \newblock 01 2004.
 
@@ -59,6 +71,11 @@ J.~Lake.
 \newblock {\em comparitech}, 2018.
 \newblock on-line at:
   \url{https://www.comparitech.com/blog/information-security/rsa-encryption/}.
+
+\bibitem{prism1}
+T.~B. Lee.
+\newblock {How Congress unknowingly legalized PRISM in 2007}.
+\newblock {\em The Washington Post}, 2013.
 
 \bibitem{dataencryption}
 N.~Lord.
@@ -94,6 +111,12 @@ R.~Mekovec.
   195--209, 2010.
 \newblock on-line at: \url{https://bib.irb.hr/datoteka/495673.JIOS2010.pdf}.
 
+\bibitem{cookies3}
+A.~D. Miyazaki and A.~Fernandez.
+\newblock {Consumer Perceptions of Privacy and Security Risks for Online
+  Shopping}.
+\newblock {\em The Journal of Consumer Affairs}, 2005.
+
 \bibitem{vpn5}
 V.~Perta.
 \newblock {A Glance through the VPN Looking Glass: IPv6 Leakage and DNS
@@ -127,6 +150,12 @@ D.~J. Solove.
 W.~T. Strayer.
 \newblock {Privacy Issues in Virtual Private Networks}.
 \newblock {\em Computer Communications}, 2004.
+
+\bibitem{cookies2}
+J.Y. Tsai, S~Egelman, L.~Cranor, and A.~Acquisti.
+\newblock {The Effect of Online Privacy Information on Purchasing Behavior: An
+  Experimental Study}.
+\newblock {\em Information Systems Research}, pages 254--268, 2011.
 
 \bibitem{ruzvelt}
 D.~Whitfield and S.~Landau.
