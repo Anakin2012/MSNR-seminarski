@@ -65,6 +65,12 @@ K.~Grewal, R.~Kajal, and D.~Saini.
   and Software Engineering}, 2012.
 \newblock on-line at: \url{www.ijarcsse.com}.
 
+\bibitem{vpn6}
+M.~T. Khan, J.~DeBlasio, G.~Voelker, A.~Snoeren, C.~Kanich, and
+  N.~Vallina-Rodriguez.
+\newblock An empirical analysis of the commercial vpn ecosystem.
+\newblock pages 443--456, 2018.
+
 \bibitem{rsa}
 J.~Lake.
 \newblock {What is RSA encryption and how does it work?}
@@ -92,6 +98,11 @@ M.~Madden, A.~Lenhart, S.~Cortesi, U.~Gasser, M.~Duggan, A.~Smith, and
   M.~Beaton.
 \newblock {Teens, Social Media, and Privacy}.
 \newblock {\em Pew Research Center}, 2013.
+
+\bibitem{stat}
+M.~Madden and L.~Rainie.
+\newblock {Americans’ Attitudes About Privacy, Security and Surveillance}.
+\newblock {\em Pew Research Center}, 2015.
 
 \bibitem{vpn3}
 V.~Marijanović.
