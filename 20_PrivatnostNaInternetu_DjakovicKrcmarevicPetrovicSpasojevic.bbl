@@ -65,18 +65,17 @@ K.~Grewal, R.~Kajal, and D.~Saini.
   and Software Engineering}, 2012.
 \newblock on-line at: \url{www.ijarcsse.com}.
 
+\bibitem{enc2}
+T.~Isobe and K.~Minematsu.
+\newblock Breaking message integrity of an end-to-end encryption scheme of
+  line.
+\newblock {\em University of Hyogo, Japan}, 2018.
+
 \bibitem{vpn6}
 M.~T. Khan, J.~DeBlasio, G.~Voelker, A.~Snoeren, C.~Kanich, and
   N.~Vallina-Rodriguez.
 \newblock An empirical analysis of the commercial vpn ecosystem.
 \newblock pages 443--456, 2018.
-
-\bibitem{rsa}
-J.~Lake.
-\newblock {What is RSA encryption and how does it work?}
-\newblock {\em comparitech}, 2018.
-\newblock on-line at:
-  \url{https://www.comparitech.com/blog/information-security/rsa-encryption/}.
 
 \bibitem{prism1}
 T.~B. Lee.
@@ -108,13 +107,6 @@ M.~Madden and L.~Rainie.
 V.~Marijanović.
 \newblock {Virtuelne privatne mreže}, 2011.
 
-\bibitem{aes}
-J.~Mason.
-\newblock {Advanced Encryption Standard (AES)}.
-\newblock 2017.
-\newblock on-line at:
-  \url{https://thebestvpn.com/advanced-encryption-standard-aes/}.
-
 \bibitem{renata}
 R.~Mekovec.
 \newblock {Online privacy: overview and preliminary research}.
@@ -145,11 +137,23 @@ J.~Roth.
 \newblock {Bloomberg in London to Study Security System}, 2010.
 \newblock on-line at: \url{https://abc.go.com/wabc}.
 
+\bibitem{enc3}
+J.~Scharr.
+\newblock What is tor? answers to frequently asked questions.
+\newblock {\em tom's guide}, 2013.
+
 \bibitem{ddp}
 R.~Singel.
 \newblock {Google, Microsoft Push Feds to Fix Privacy Laws}.
 \newblock {\em Wired}, 2010.
 \newblock on-line at: \url{https://www.wired.com}.
+
+\bibitem{enc1}
+R.~Singh and S.~Kumar.
+\newblock An overview of world wide web protocol (hypertext transfer protocol
+  and hypertext transfer protocol secure).
+\newblock {\em International Journal of Advanced Research in Computer Science
+  and Software Engineering}, 2016.
 
 \bibitem{solove}
 D.~J. Solove.

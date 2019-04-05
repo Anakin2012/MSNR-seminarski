@@ -14,4 +14,4 @@
 \contentsline {subsection}{\numberline {5.1}Enkripcija}{10}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Virtuelne privatne mre\IeC {\v z}e (VPN)}{10}{subsection.5.2}
 \contentsline {section}{\numberline {6}Zaklju\IeC {\v c}ak}{11}{section.6}
-\contentsline {section}{Literatura}{12}{section.6}
+\contentsline {section}{Literatura}{11}{section.6}

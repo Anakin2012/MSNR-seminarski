@@ -1,19 +1,19 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: 20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.aux
 The style file: plain.bst
 Database file #1: seminarski.bib
-I was expecting a `,' or a `}'---line 47 of file seminarski.bib
+I was expecting a `,' or a `}'---line 73 of file seminarski.bib
  :  
  :  url = {https://www.washingtonpost.com/news/wonk/wp/2013/06/06/how-congress-unknowingly-legalized-prism-in-2007/?noredirect=on&utm_term=.db1defafa231}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "vpn3" isn't style-file defined
---line 172 of file seminarski.bib
-I was expecting a `,' or a `}'---line 190 of file seminarski.bib
+--line 182 of file seminarski.bib
+I was expecting a `,' or a `}'---line 200 of file seminarski.bib
  : 
  : @article {vpn5,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 215 of file seminarski.bib
+I was expecting a `,' or a `}'---line 225 of file seminarski.bib
  :  
  :  url = {http://pewinternet.org/Reports/2012/ Privacy‐management‐on‐social‐media.aspx}
 (Error may have been on previous line)
@@ -23,6 +23,5 @@ Warning--empty booktitle in it2
 Warning--empty booktitle in it1
 Warning--empty journal in sm3
 Warning--empty journal in vpn6
-Warning--empty journal in aes
 Warning--empty journal in vpn5
 (There were 3 error messages)
