@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2019.3.16)  6 APR 2019 08:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2019.3.16)  6 APR 2019 09:54
 entering extended mode
 **./20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.tex
 (20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.tex
@@ -859,13 +859,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1
 
-{C:/Users/lena/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (14.98814pt too wide) in paragraph at lines 73--74
-[]\T2A/cmr/m/n/9 U martu 2018. go-dine bivsi za-po-sleni firme Kem-bridz Ana-
-li-tika (eng. \T2A/cmr/m/it/9 Cam-
- []
-
-[2] [3]
+{C:/Users/lena/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
 Overfull \hbox (9.53792pt too wide) in paragraph at lines 94--95
 []\T2A/cmr/m/n/9 Neki od tih slucajeva su zlo-u-po-treba po-pi-snih spi-skova 
 od strane americke
@@ -889,25 +883,25 @@ Overfull \hbox (86.926pt too wide) in paragraph at lines 118--126
  [] 
  []
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [6] [7]
 Overfull \hbox (3.48067pt too wide) in paragraph at lines 137--138
 \T2A/cmr/m/n/9 pre-trazivaca u pri-vat-nom rezimu rada. Me[]\OT1/cmr/m/n/9 d
 \T2A/cmr/m/n/9 utim, to one-mogucava i kolacice
  []
 
-[8]
-<chart.png, id=184, 856.19875pt x 528.97626pt>
+<chart.png, id=169, 856.19875pt x 528.97626pt>
 File: chart.png Graphic file (type png)
 <use chart.png>
-Package pdftex.def Info: chart.png  used on input line 150.
+Package pdftex.def Info: chart.png  used on input line 146.
 (pdftex.def)             Requested size: 299.67404pt x 185.14445pt.
- [9 <./chart.png>]
-Overfull \hbox (13.32661pt too wide) in paragraph at lines 166--167
-[]\T2A/cmr/m/n/9 Usled skorasnjih ot-krica o ve-li-kim pro-jek-tima za nad-zo
-r i usled ogranicenja
- []
 
-[10] (20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.bbl
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8] [9 <./chart.png>] [10]
+(20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.bbl
 LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd"
@@ -923,45 +917,43 @@ Underfull \hbox (badness 2932) in paragraph at lines 4--8
  / privacy . net /
  []
 
-[11] [12])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
-
-(20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+[11])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+ (20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
 Package rerunfilecheck Info: File `20_PrivatnostNaInternetu_DjakovicKrcmarevicP
 etrovicSpasojevic.out' has not changed.
-(rerunfilecheck)             Checksum: 4344970DAE09F1275A91FB4C7D8301B8;2399.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+(rerunfilecheck)             Checksum: 014FF4E997F6FD829C447B05DF27D9CE;2252.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
  ) 
 Here is how much of TeX's memory you used:
- 11278 strings out of 493308
- 155364 string characters out of 3138771
- 255257 words of memory out of 3000000
- 14655 multiletter control sequences out of 15000+200000
- 16065 words of font info for 38 fonts, out of 3000000 for 9000
+ 11269 strings out of 493308
+ 155258 string characters out of 3138771
+ 256257 words of memory out of 3000000
+ 14651 multiletter control sequences out of 15000+200000
+ 15248 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,9n,40p,1898b,451s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,9n,40p,2390b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/cm-super/sfbx0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-
-super/sfbx1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfb
-x1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1440.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/cm-super/sfti0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/cm-super/sftt0900.pfb>
+super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfb
+x1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1728.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/cm-super/sfti0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/cm-super/sftt0900.pfb>
 Output written on 20_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic
-.pdf (13 pages, 336827 bytes).
+.pdf (12 pages, 318572 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 284 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
