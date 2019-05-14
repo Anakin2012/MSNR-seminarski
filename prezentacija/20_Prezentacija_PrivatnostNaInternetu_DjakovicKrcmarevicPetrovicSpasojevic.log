@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2019.3.16)  15 MAY 2019 00:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2019.3.16)  15 MAY 2019 01:03
 entering extended mode
 **./20_Prezentacija_PrivatnostNaInternetu_DjakovicKrcmarevicPetrovicSpasojevic.
 tex
@@ -1317,9 +1317,14 @@ Overfull \hbox (5.69043pt too wide) in paragraph at lines 171--171
 
 [6
 
- <./henkelkolacic.png>] [7
+ <./henkelkolacic.png>]
+Overfull \hbox (19.91681pt too wide) in paragraph at lines 181--181
+[][]  
+ []
 
- <./chart.png>]
+[7
+
+ <./tabela16.png>]
 Overfull \hbox (5.69043pt too wide) in paragraph at lines 195--195
 [][][]  
  []
@@ -1364,8 +1369,8 @@ icKrcmarevicPetrovicSpasojevic.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  19486 strings out of 493308
- 360136 string characters out of 3138771
- 448591 words of memory out of 3000000
+ 360142 string characters out of 3138771
+ 448592 words of memory out of 3000000
  22529 multiletter control sequences out of 15000+200000
  12917 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1375,7 +1380,7 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
 Output written on 20_Prezentacija_PrivatnostNaInternetu_DjakovicKrcmarevicPetro
-vicSpasojevic.pdf (11 pages, 547337 bytes).
+vicSpasojevic.pdf (11 pages, 1024665 bytes).
 PDF statistics:
  568 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
