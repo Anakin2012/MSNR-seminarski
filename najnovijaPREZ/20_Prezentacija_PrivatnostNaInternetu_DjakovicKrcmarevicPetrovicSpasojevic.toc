@@ -1,0 +1,11 @@
+\select@language {brazil}
+\beamer@sectionintoc {1}{\textbf {Pojam privatnosti}}{3}{0}{1}
+\beamer@sectionintoc {2}{\textbf {Pojedinac na internetu}}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{Dru\IeC {\v s}tvene mre\IeC {\v z}e}{4}{0}{2}
+\beamer@subsectionintoc {2}{2}{Kra\IeC {\dj }a identiteta}{5}{0}{2}
+\beamer@subsectionintoc {2}{3}{Kola\IeC {\v c}i\IeC {\'c}i}{6}{0}{2}
+\beamer@sectionintoc {3}{\textbf {Za\IeC {\v s}tita privatnosti na internetu}}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Virtuelne privatne mre\IeC {\v z}e}{8}{0}{3}
+\beamer@subsectionintoc {3}{2}{Enkripcija}{9}{0}{3}
+\beamer@sectionintoc {4}{\textbf {Zaklju\IeC {\v c}ak}}{10}{0}{4}
+\beamer@sectionintoc {5}{\textbf {Literatura}}{11}{0}{5}

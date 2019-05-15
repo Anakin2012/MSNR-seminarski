@@ -1,0 +1,275 @@
+\documentclass{beamer}
+
+\mode<presentation>{
+\usetheme{Darmstadt}
+\setbeamercovered{transparent}
+\usecolortheme{lsc}
+}
+%Darmstadt najbolji
+%Hannover ok sa strane
+\mode<handout>{
+  % tema simples para ser impresso
+  \usepackage[bar]{beamerthemetree}
+  % Colocando um fundo cinza quando for gerar transparências para serem impressas
+  % mais de uma transparência por página
+  \beamertemplatesolidbackgroundcolor{black!5}
+}
+\usepackage[dvipsnames]{}
+\usepackage{amsmath,amssymb}
+\usepackage[brazil]{varioref}
+\usepackage[english,brazil]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{colortbl}
+
+\definecolor{aqua}{RGB}{50, 135, 140}
+
+\beamertemplatetransparentcovereddynamic
+
+\title[Privatnost i njena zaštita u digitalnom dobu]{Privatnost i njena zaštita u digitalnom dobu}
+\author[]{%
+  Đaković Branko, Krčmarević Mladen, Petrović Ana\inst{} \\
+   \inst{}}
+  \institute[]{
+  \inst{}%
+    Matematički fakultet\\~\\
+    brankodjakovic08@gmail.com, mladenk@twodesperados.com, pana.petrovic@gmail.com}
+
+% Se comentar a linha abaixo, irá aparecer a data quando foi compilada a apresentação  
+\date{15. maj 2019}
+
+\pgfdeclareimage[height=1cm]{inf}{figs/CienciaDaComputacao.png}
+
+% pode-se colocar o LOGO assim
+\logo{\pgfuseimage{inf}}
+
+%\AtBeginSection[]{
+ % \begin{frame}<beamer>
+ %   \frametitle{Pregled}
+  %  \tableofcontents[currentsection,currentsubsection]
+ % \end{frame}
+%}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Pregled}
+\tableofcontents
+\end{frame}
+
+
+
+\section{\textbf {Pojam privatnosti}}
+\frame{
+	\frametitle{Pojam privatnosti}
+	Šta je privatnost?
+	\begin{itemize}
+		\item Širok i neodređen pojam 
+		\begin{itemize}
+			\item Fizička bliskost osobi
+			\item Znanje o osobi
+			\item Sukob privatnog i javnog
+			\newline
+		\end{itemize}
+	
+		\item \textbf{Koncept društvenog ugovora o kontroli pristupa podacima i telu pojedinca}
+	\newline
+		\item Percepcija privatnosti
+		\begin{itemize}
+			\item Kako pojedinac vidi svoju privatnost
+			\item Zavisi od pola, uzrasta, obrazovanja, prethodnog iskustva
+			\item Ponašanje pojedinca na internetu
+			\item Odricanje privatnosti zarad ispunjenja potreba
+			
+		\end{itemize}
+		
+	\end{itemize}
+}
+
+\section{\textbf {Pojedinac na internetu}}
+\subsection{Društvene mreže}
+\frame{
+
+\frametitle{Društvene mreže}
+	
+	\begin{itemize}
+		\item Dve trećine korisnika interneta 
+		\item Podešavanja privatnosti prepuštena korisniku
+		\item Da li je to garancija privatnosti?
+		\item Pretežno mladi ljudi
+	\end{itemize}
+		
+\begin{table}[h!]
+	\begin{center}
+		\caption{Broj tinejdžera koji su delili svoje podatke na društvenim mrežama u procentima}
+		\begin{tabular}{|c | c c c c c|} \hline
+			
+			Godina & \begin{tabular}[x]{@{}c@{}} Sopstvena \\fotografija \end{tabular} & \begin{tabular}[x]{@{}c@{}} Naziv \\ škole \end{tabular} & \begin{tabular}[x]{@{}c@{}}Mesto \\ stanovanja \end{tabular} & \begin{tabular}[x]{@{}c@{}}Imejl \\ adresa \end{tabular} & \begin{tabular}[x]{@{}c@{}}Broj \\ telefona \end{tabular} \\
+			\hline
+			2006 & 79 & 49 & 61 & 29 & 2 \\
+			2012 & 91 & 71 & 71 & 53 & 20 \\
+			\hline
+		\end{tabular}
+		\label{tab:tabela1}
+	\end{center}
+\end{table}
+}
+
+\subsection{Krađa identiteta}
+
+\frame{
+	\frametitle{Krađa identiteta}
+	\begin{itemize}
+		\item Fenomen u porastu
+		\item Spam mejlovi i automatski procesi
+		\newline
+		\item Deepfake tehnologija
+		\begin{itemize}
+			\item Manipulacija video sadržajem 
+			\item Algoritmi za mašinsko učenje
+			\item Novi stepen krađe identiteta 
+		\end{itemize}
+		
+	\end{itemize}
+
+	\pgfdeclareimage[width=7.5cm]{D}{deepfake.png}
+	\begin{center}
+	\pgfuseimage{D}	
+	\end{center}
+	
+
+
+}
+
+\subsection{Kolačići}
+
+\frame{
+	\frametitle{Kolačići}
+	\begin{itemize}
+		\item Male datoteke koje čuvaju informacije o veb sajtovima
+	
+		\item Sesijski i trajni 
+		\item Kolačići prve strane - korisni kolačići
+		\item Kolačići treće strane - kolačići za praćenje 
+		\begin{itemize}
+			\item Istorija pretraživanja, kupovine, lokacije, itd.
+			\item Korisnici retko čitaju politike privatnosti
+			\item Koristiti privatni režim ili deaktivirati kolačiće
+		\end{itemize}	
+
+	\end{itemize}
+
+	\pgfdeclareimage[width=11cm]{M}{henkelkolacic.png}
+	\pgfuseimage{M}	
+}
+
+
+
+\section{\textbf {Zaštita privatnosti na internetu}}
+\frame{
+    \frametitle{Mere preduzimanja zaštite na internetu}
+    
+    \pgfdeclareimage[width=11.5cm]{RM}{tabela16.png}
+    \pgfuseimage{RM}    
+}
+
+\subsection{Virtuelne privatne mreže}
+\frame{
+	\frametitle{VPN}
+	\pgfdeclareimage[width=11cm]{R}{vpn.jpg}
+	\pgfuseimage{R} 
+	\begin{itemize}
+		\item Zaštita od hakovanja i gubitka podataka
+		\item Zaštita privatnosti i od cenzurisanja
+		\item Samo članovi mreže mogu da vide poslate informacije
+		\item Sigurnosne procedure (enkripcija) i protokoli tuneliranja
+		\item Sakriva IP adresu
+	\end{itemize}
+}
+
+\subsection{Enkripcija}
+\frame{
+	\frametitle{Enkripcija}
+	\begin{itemize}
+		\item Problem posredovane komunikacije udaljenih uređaja
+		\item Mehanizam za šifrovanje informacija korišćenjem ključa
+		\begin{itemize}
+			\item Učitavanje https stranica
+			\item VPN
+			\item Višeslojna enkripcija - Tor pregledač
+			\item Od-početka-do-kraja - aplikacije za ćaskanje
+		\end{itemize}		
+	\end{itemize}
+	
+	\pgfdeclareimage[width=6.5cm]{E}{enc2.png}
+	\begin{center}
+		\pgfuseimage{E} 
+	\end{center}
+}
+
+
+\section{\textbf {Zaključak}}
+
+\frame{
+	\frametitle{Zaključak}
+	
+	\begin{itemize}
+		\item Konstantan rizik od zloupotrebe informacija
+		\item Privatnost na internetu danas?
+		\begin{itemize}
+			\item Postoji, ali nije zagarantovana
+			\item Aktivno angažovanje i napor korisnika 
+			\newline  
+		\end{itemize}
+		\item Odreći se ili zadržati privatnost? 
+		\item Rešenje u informisanju pojedinca  
+	\\~\\~\\ 
+\end{itemize}
+	\begin{center}
+	    \color{aqua}\textbf{\huge {Hvala na pažnji!}}
+	\end{center}
+	
+}
+
+\section{\textbf{Literatura}}
+
+\frame{
+    \frametitle{Literatura}
+    \begin{itemize}
+	\begin{tiny}
+
+		
+	   \item D. Anon. How cookies track you around the web and how to stop them, 2018.
+	   \item H. Baker. Making a ’deepfake’: How creating our own synthetic video helped us learn to spot one. 2019.
+	   \item L. Bilge, T. Strufe, D. Balzarotti, and E. Kirda. All your contacts are belong to us: Automated identity theft attacks on social networks. 2009.
+	   \item K. Grewal, R. Kajal, and D. Saini. Virtual Private Network. 2012. 
+	   \item T. Isobe and K. Minematsu. Breaking message integrity of an end-to-end encryption scheme of line. 2018.
+	   \item N. Lord. What Is Data Encryption? Definition, Best Practices \& More. Digital Guardian, 2019. 
+       \item M. Madden. Privacy management on social media sites. Pew Research Center, 2012
+       \item M. Madden, A. Lenhart, S. Cortesi, U. Gasser, M. Duggan, A. Smith and M. Beaton. Teens, Social media, and Privacy. Pew Research Center, 2013.
+       \item M. Madden and L. Rainie. Americans' Attitudes About Privacy, Security and Surveillance. Pew Research Center, 2015.
+       \item R. Mekovec. Online privacy: overview and preliminary research. Journal of Information and Organizational Sciences. 2010.
+       \item V. Perta. A Glance through the VPN Looking Glass: IPv6 Leakage and DNS Hijacking in Commercial VPN clients. 2015.
+       \item M. J. Quinn. Ethics for the Information Age, chapter Information Privacy, AddisonWesley Professional, 2014.
+       \item J. Scharr. What is tor? answers to frequently asked questions. 2013.
+	   \item R. Singh and S. Kumar. An overview of world wide web protocol
+	   (hypertext transfer protocol and hypertext transfer protocol secure). 2016.
+	   \item D. J. Solove. Understanding Privacy, chapter Privacy: A Concept in Disarrey. Harvard University Press, 2008.
+	   \item J. Y. Tsai, S. Egelman, L. Cranor and A. Acquisti. The Effect of Online Privacy Information on Purchasing Behavior: An Experimental Study. Information Systems Reseach, 2011.
+	   		\item slike preuzete sa: \\ \href{https://www.cnet.com/best-vpn-services-directory}{www.cnet.com/best-vpn-services-directory} \\
+	   \href{https://thenextweb.com/artificial-intelligence/2018/02/21/deepfakes-algorithm-nails-donald-trump-in-most-convincing-fake-yet/}{www.thenextweb.com/artificial-intelligence} \\
+	   \href{https://www.henkel.rs/}{www.henkel.rs}
+	   \item
+	\end{tiny}
+
+	\end{itemize}
+}
+
+\end{document}
